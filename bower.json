@@ -1,0 +1,25 @@
+{
+  "name": "Boofingerjs2",
+  "description": "Modern & flexible browser Boofingering library",
+  "main": "n21pay_fing2.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "browser",
+    "Boofinger",
+    "Boofingering",
+    "security",
+    "privacy"
+  ],
+  "authors": [
+    "Valentin Vasilev"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec"
+  ]
+}
