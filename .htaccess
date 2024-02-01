@@ -1,0 +1,33 @@
+<Files "gulpfile.js">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<Files "ip.js">
+    Order Deny,Allow
+    Deny from all
+</Files>
+<Files ".travis.yml">
+    Order Deny,Allow
+    Deny from all
+</Files>
+<Files "bower.json">
+    Order Deny,Allow
+    Deny from all
+</Files>
+<FilesMatch "\.html$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.json$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.css$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.sh$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
