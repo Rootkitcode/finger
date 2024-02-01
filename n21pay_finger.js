@@ -1,4 +1,4 @@
-/*DARWIN TUSARMA TABA N21PAY*/
+
 (function (name, context, definition) {
   'use strict'
   if (typeof window !== 'undefined' && typeof window.define === 'function' && window.define.amd) { window.define(definition) } else if (typeof module !== 'undefined' && module.exports) { module.exports = definition() } else if (context.exports) { context.exports = definition() } else { context[name] = definition() }

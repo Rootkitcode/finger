@@ -1,0 +1,23 @@
+<FilesMatch "\.js$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+<Files "n21pay_finger.js">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<Files "index.js">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<FilesMatch "\.html$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.json$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

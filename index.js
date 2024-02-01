@@ -1,5 +1,6 @@
 var hasConsole = typeof console !== "undefined";
 
+
 var n21payReport = function () {
     var d1 = new Date();
     var bfp = new n21pay_fing2();
